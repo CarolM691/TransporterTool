@@ -2,11 +2,94 @@
 <html>
 <head>
 <title>Creating New Account</title>
+
+</head>
+<body>
+    <header>
+        <h2>Transport & TotalE logo</h2>
+    </header>
+    <footer>
+        <h2>&copy; Copyright Reserved.</h2>
+        <div class="=nav">
+            <a href="">Home</a>
+            <a href="">Login</a>
+            <a href="">Contact TotalEnergies</a>
+            <a href="">Emergencies</a>
+            <a href="">FAQ</a>
+
+        </div>
+    </footer>
+
+<div class="main-class">
+   <div class="createAcc-control-div">
+    <form>
+        <h2>Register New Account</h2> 
+        <input type="text" required placeholder="Enter Your First Name" />
+        <input type="text" required placeholder="Enter Your Last Name" />  
+        <input type="Email Address" required placeholder="Enter email address" />
+        <input type="Password" required placeholder="Set Password - max. 12 characters" />
+
+            <div class="btn-control"></div>
+        <div class="btn-register-control">
+            <button>Register Now</button></div>
+
+    </form>
+</body>
+</html>
+
 <style>
 
 *{
-    background-color: rgba(7, 6, 6, 0.925);
+    margin: 0;
+    padding: 0;
 }
+
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: beige;
+}
+
+header h2{
+    position: absolute;
+    margin-top: 20px;
+    left: 38%;
+}
+
+header{
+    position: absolute;
+    background-color: darkgray;
+    width: 100%;
+    color: white;
+    height: 10vh;
+}
+
+footer{
+    position: absolute;
+    background-color: lightgrey;
+    width: 100%;
+    color: white;
+    height: 15vh;
+    bottom: 0;
+}
+
+footer h2{
+    position: absolute;
+    left: 38%;
+}
+
+.nav{
+    position: absolute;
+    width: 100%;
+}
+
+.nav a{
+    position: absolute;
+    left: 48%;
+    bottom: 20px;
+    color: black;
+
+}
+
 .main-class {
     display: flex;
     justify-content: center;
@@ -15,7 +98,7 @@
 }
 
 .main-class .createAcc-control-div {
-    background-color: rgb(5, 5, 5);
+    background-color: beige;
     height: 40%;
     width: 70%;
     border-radius: 10px;
@@ -31,12 +114,12 @@
     /* width: 100%; */
     align-items: center;
     /* padding-top: 40px; */
-    background-color: rgb(5, 5, 5);
+    background-color: beige;
 
 }
 
 form > h2{
-    color: white;
+    color: darkslategrey;
 }
 form >input{
     outline: none;
@@ -79,27 +162,11 @@ form > .btn-register-control {
 form > .btn-register-control > button{
     width: 80%;
     height: 35px;
-    color: white;
+    color: black;
     border-radius: 10px;
     border: 1px solid rgb(97, 97, 97);
 }
 
 </style>
 
-</head>
-<body>
 
-<div class="main-class">
-   <div class="createAcc-control-div">
-    <form>
-        <h2>Register New Account</h2> 
-        <input type="text" required placeholder="Enter Your First Name" />
-        <input type="text" required placeholder="Enter Your Last Name" />  
-        <input type="Email Address" required placeholder="Enter email address" />
-        <input type="Set Password" required placeholder="Set Password - max. 12 characters" />
-
-            <div class="btn-control"></div>
-        <div class="btn-register-control">
-            <button>Register Now</button></div>
-
-    </form>
